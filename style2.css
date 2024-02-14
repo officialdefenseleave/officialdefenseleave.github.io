@@ -51,6 +51,21 @@ ul {
     background: rgb(248, 248, 248);
 
 }
+.btnp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail{
+    display: flex;
+    padding: 10px;
+}
+.mail label{
+    padding: 10px;
+}
 @media (max-width:900px) {
     .p1{
         width: 90%;
