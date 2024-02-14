@@ -1,0 +1,102 @@
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+}
+.container{
+    margin: 30px auto;
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    max-width: 900px;
+    padding: 10px;
+}
+.header{
+    padding: 30px;
+    border-bottom: 1px solid rgb(102, 102, 102);
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: start;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.input1, .input2{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 100%;
+    max-width: 400px;
+}
+input{
+    padding: 15px;
+    margin: 10px 0;
+    border-color: rgb(201, 201, 201);
+    border-radius: 5px;
+    outline: none;
+}
+label{
+    color: rgb(194, 194, 194);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.address{
+    padding: 10px;
+}
+.address .input2{
+    width: 100%;
+    max-width: none;
+}
+input::placeholder{
+    color: rgb(230, 230, 230);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+.rim{
+    width: 90%;
+    text-align: start;
+    margin: 0 auto;
+    padding: 10px;
+}
+.btn{
+    padding: 20px;
+    width: auto;
+}
+.btn input{
+    width: 100%;
+    max-width: 200px;
+    background-color: rgb(25, 168, 25);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+@media (max-width:900px) {
+    .input{
+        flex-direction: column;
+    }
+    .address{
+        padding: 0;
+    }
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.pacages img{
+  width: 50%;
+}

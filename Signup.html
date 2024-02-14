@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Apply for Leave</title>
+</head>
+<body>
+    <div class="container">
+       <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="0b4d740a-c2e1-4dcd-a067-67439ba228de">
+        <div class="header">
+            <h1>Military Leave Form</h1>
+        </div>
+        <br>
+        <div class="name">
+            <p>Full Name</p>
+            <div class="input">
+                <div class="input1">
+                    <input type="text"placeholder="" required name=" first name">
+                    <label for="FirstName"  >First Name</label>
+                </div>
+                <div class="input1">
+                    <input type="text"placeholder="" required name="last name">
+                    <label for="Lastname" >Last Name</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="name">
+            <div class="input">
+                <div class="input1">
+                    <p>Title/Rank</p>
+                    <input type="text"placeholder="" name="rank">
+                </div>
+                <div class="input1">
+                    <p>Unit/Department</p>
+                    <input type="text"placeholder="" name="unit">
+                </div>
+            </div>
+        </div>
+
+        <div class="name">
+            <div class="input">
+                <div class="input1">
+                    <p>Employee ID</p>
+                    <input type="text"placeholder="" name="ID">
+                </div>
+                <div class="input1">
+                    <p>Years of Service</p>
+                    <input type="text"placeholder="e.g., 23">
+                </div>
+            </div>
+        </div>
+
+        <div class="name">
+            <div class="input">
+                <div class="input1">
+                    <p>Phone Number</p>
+                    <input type="text" name="Phone" placeholder="(000) 000-000">
+                </div>
+                <div class="input1">
+                    <p>Applicant Email</p>
+                    <input type="Email" name="Email" placeholder="example@example.com" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="address">
+            <div class="name">
+                <div class="input">
+                    <div class="input2">
+                        <p>Address</p>
+                        <input type="text"placeholder="" name="address">
+                        <label for="Address">Street Address</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="name">
+                <div class="input">
+                    <div class="input2">
+                        <input type="text"placeholder="address 2">
+                        <label for="Address">Street Address line 2</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="name">
+            <div class="input">
+                <div class="input1">
+                    <input type="text" name="city">
+                    <label for="city">City</label>
+                </div>
+                <div class="input1">
+                    <input type="text" >
+                    <label for="state">State / Province</label>
+                </div>
+            </div>
+        </div>
+
+       <div class="address">
+            <div class="name">
+                <div class="input">
+                    <div class="input2">
+                        <input type="text"placeholder="" name="Zip">
+                        <label for="Address">Postal / Zip Code</label>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <br>
+       <br>
+       <hr>
+       <br>
+       <br>
+       <div class="name">
+            <div class="input">
+                <div class="input1">
+                    <p>Number of Days Leave</p>
+                    <input type="text"placeholder="" name="leaveDays">
+                </div>
+            </div>
+        </div>
+
+        <div class="name">
+            <div class="input">
+                <div class="input1">
+                    <p>From (Leave period)</p>
+                    <input type="date" placeholder="MM-DD-YYYY" name="start">
+                    <label for="date">Date</label>
+                </div>
+                <div class="input1">
+                    <p>To (Leave period)</p>
+                    <input type="date" placeholder="MM-DD-YYYY" name="stop">
+                    <label for="date">Date</label>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <div class="rim">
+            <h2>REMINDERS:</h2>
+        <br>
+        <ul>
+            <li>If the leave is more than 30 days, the excess days will be considered as without pay.</li>
+            <li>The individual needs to provide a copy of his/her military orders for the departmental personnel file.</li>
+            <li>The individual needs to provide a copy of his/her military orders for the departmental personnel file.</li>
+            <li>It is recommended for the individual to have life insurance and other important coverages.</li>
+        </ul>
+        <input type="checkbox" required> I hereby certify that I have read and understand the leave policy and I will abide by it. I also confirm that all information in this form is true and accurate
+        </div>
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            <div class="btn">
+                <input type="submit" value="Submit">
+            </div>
+            <a href="index.html">Back</a>
+       </form>
+       <br>
+    </div>
+</body>
+</html>
